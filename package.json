@@ -1,0 +1,31 @@
+{
+  "name": "es-next-available",
+  "version": "1.0.0",
+  "description": "最新的javascript特性兼容性，及其转化规则",
+  "main": "index.js",
+  "dependencies": {
+    "@babel/runtime": "^7.13.10",
+    "core-js": "^3.9.1",
+    "xlsx": "^0.16.9"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.14",
+    "@babel/core": "^7.13.14",
+    "@babel/plugin-transform-runtime": "^7.13.10",
+    "@babel/preset-env": "^7.13.12"
+  },
+  "scripts": {
+    "build": "babel --delete-dir-on-start -D src -d build --extensions .js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sunkeysun/es-next-available.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sunkeysun/es-next-available/issues"
+  },
+  "homepage": "https://github.com/sunkeysun/es-next-available#readme"
+}
